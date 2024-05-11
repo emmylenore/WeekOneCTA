@@ -30,7 +30,9 @@ public class TestingBank {
 	    System.out.println("New balance: $" + checkAcc.getBalance());
 	    
 	    System.out.println("\nDisplaying account information...");
-	    checkAcc.displayCheckingAccount();
+		//   checkAcc.displayCheckingAccount(); former code corrected below
+	    checkAcc.accountPersonSum();
+		
 	  }
 	}
 
